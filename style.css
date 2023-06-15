@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@500&family=Public+Sans:wght@300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Public Sans";
+}
+
+.main-con {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border: 4px solid black;
+}
+.title {
+  border: 4px solid black;
+  border-bottom: 0px;
+  width: 50vw;
+  background-color:lightblue;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.left {
+  background-color:#95DBE5FF;
+  height: 60vh;
+  width: 25vw;
+}
+.enter {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.degree input {
+  height: 30px;
+  margin-right: 9px;
+  border-radius: 7px;
+  padding:1%;
+}
+.convert select {
+  height: 35px;
+  width: 213px;
+  margin-right: 7px;
+  border-radius: 9px;
+}
+.degree {
+  font-size: 22px;
+  font-weight: bold;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.convert {
+  font-size: 22px;
+  font-weight: bold;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.right {
+  background-color:aliceblue;
+  height: 60vh;
+  width: 25vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:40px;
+}
+button {
+  height: 40px;
+  width: 320px;
+  border: 3px solid lavender;
+  cursor:pointer;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color:rgba(124, 0, 232, 0.612);
+  font-weight:700;
+  color: azure;
+}
+button:hover{
+  border: 5px solid lightgoldenrodyellow;
+  border-radius: 7px;
+  font-size: 15px;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+

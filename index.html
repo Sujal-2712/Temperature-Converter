@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="box">
+                <div class="title">
+                    <h1>Temperature Converter</h1>
+                </div>
+                <div class="main-con">
+                    <div class="left">
+                        <div class="enter">
+                            <h2>Enter the Temperature</h2>
+                        </div>
+                        <div class="degree">
+                            <p style="padding-right:20px;">Degree</p>
+                            <input type="number" placeholder="Enter the Degree" id="getValue" value="0"></input>
+                            <select name="type" id="getDegree" style="border-radius: 7px;">
+                                <option value="C" style="font-size: larger;">&deg;C</option>
+                                <option value="K" style="font-size: larger;">K</option>
+                                <option value="F" style="font-size: larger;">&deg;F</option>
+                            </select>
+                        </div>
+                        <div class="convert">
+                            <p style="padding-right:20px;">Covert In</p>
+                            <select name="" id="getType" style="border-radius: 7px;">
+                                <option value="C" style="font-size: larger;">Celcuis &deg;C</option>
+                                <option value="K" style="font-size: larger;">Kelvin K</option>
+                                <option value="F" selected style="font-size: larger;">Fahrenheit &deg;F</option>
+                            </select>
+                        </div>
+                        <div class="btn"id="submit">
+                            <button>Convert</button>
+                        </div>
+
+                    </div>
+                    <div class="right">
+                        <div class="output" id="answer">32</div>
+                        <h3 id="degree">&deg;</h3>
+                        <h3 id="converted">F</h3>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
